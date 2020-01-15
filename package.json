@@ -1,0 +1,25 @@
+{
+  "name": "webpack-library",
+  "version": "1.0.0",
+  "description": "the consumer should be able to access the library in the following ways:",
+  "main": "dist/webpack-numbers.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "WEBPACK_ENV=build webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^3.9.1",
+    "eslint-loader": "^1.6.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
